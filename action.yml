@@ -1,16 +1,15 @@
 name: "Podcast generator by K"
 author: "Ketan Kumar Gupta"
 description: "Generator a feed for a podcast from a yaml file"
+
 runs: 
   using: "docker"
   image: "dockerFile"
-branching:
-  icon: "git-branch"
-  color: "red"
+
 inputs:
   email:
-    description: The commiter's email address
+    description: "The committer's email address"
     required: true
   name:
-    description: The commiter's name
-    requred: true
+    description: "The committer's name"
+    required: true
